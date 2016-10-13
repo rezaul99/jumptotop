@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dgm-G6-ttw">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+        <array key="RobotoCondensed-Light.ttf">
+            <string>RobotoCondensed-Light</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="bottomButton" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dQz-d1-MQq">
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="86i-02-8bc" userLabel="contentView">
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAJEK VALLEY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAe-cH-IhZ">
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="18"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sajek" translatesAutoresizingMaskIntoConstraints="NO" id="afc-Wg-6Nz">
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="220" id="iHo-oU-Kwi"/>
+                                                </constraints>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="6K7-02-Ab6">
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="256" id="9y1-HT-P73"/>
+                                                </constraints>
+                                                <mutableString key="text">Sajek is an all-weather tourist spot. It is a union located at the farthest north of Chittagong Hill Tracts. SAJEK Union is under BAGHAICHARI upazila of RANGMATI district. From KHAGRACHARI district town it is 67 km towards north-east and from RANGAMATI city it is 95km towards NW. International boundary with india is located within 8 km towards east (Mizoram). It is a natural paradise of Chittagong Hill Tracks which was not explored for long time. The beauty of Sajek is amazing. It has attracted visitors and tourist from home and abroad. By soon Honorable President, Prime Minister, Ministers, Foreign dignitaries have visited Sajek and they were amazed with her beauty. Moreover, nature lovers are visiting Sajek frequently.</mutableString>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Aqh-F4-Aeo">
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="280" id="ppt-yS-K6S"/>
+                                                </constraints>
+                                                <mutableString key="text">Rui means treasure and Lui means creek which means full to treasures. Ruilui Para is the center hub for tourists visiting Sajek . Sajek is the name of a Union. There is no earmarked place, bazar or city named Sajek. But the place where tourists urge to visit is Ruilui Para. It is learnt that approximately in 1885 some migrants came from Mizoram and built their house in Ruilui Para. In the year of 1910, grandfather of present headman got the appointment of headman from District Commissioner of Rangamati. Present headman Lalthanga Lusaihas got his appointment in 1972. After the independence many inhabitants left this place and went to Mizoram due to the scarcity of food, water and medication after that, Tripura tribes has started occupying this area. At present total 95 families from Tripura and Lusai tribes are living here at Ruilui.</mutableString>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RUILUI PARA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvx-TF-Cl7">
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="mAe-cH-IhZ" firstAttribute="top" secondItem="afc-Wg-6Nz" secondAttribute="bottom" constant="16" id="0fO-mQ-uPL"/>
+                                            <constraint firstAttribute="trailing" secondItem="afc-Wg-6Nz" secondAttribute="trailing" id="46L-zJ-OLs"/>
+                                            <constraint firstAttribute="bottom" secondItem="Aqh-F4-Aeo" secondAttribute="bottom" constant="22" id="At4-F5-jfI"/>
+                                            <constraint firstItem="afc-Wg-6Nz" firstAttribute="leading" secondItem="86i-02-8bc" secondAttribute="leading" id="G1Y-Su-7OI"/>
+                                            <constraint firstItem="rvx-TF-Cl7" firstAttribute="top" secondItem="6K7-02-Ab6" secondAttribute="bottom" constant="3" id="Xfi-XF-Gh4"/>
+                                            <constraint firstItem="Aqh-F4-Aeo" firstAttribute="leading" secondItem="86i-02-8bc" secondAttribute="leading" constant="8" id="imk-FL-0q5"/>
+                                            <constraint firstItem="6K7-02-Ab6" firstAttribute="leading" secondItem="86i-02-8bc" secondAttribute="leading" constant="8" id="jAh-Y3-C98"/>
+                                            <constraint firstItem="afc-Wg-6Nz" firstAttribute="top" secondItem="86i-02-8bc" secondAttribute="top" id="lnd-Hz-7SW"/>
+                                            <constraint firstItem="rvx-TF-Cl7" firstAttribute="leading" secondItem="86i-02-8bc" secondAttribute="leading" constant="11" id="lyx-D6-3iV"/>
+                                            <constraint firstItem="mAe-cH-IhZ" firstAttribute="leading" secondItem="86i-02-8bc" secondAttribute="leading" constant="11" id="mEw-sL-gJJ"/>
+                                            <constraint firstItem="Aqh-F4-Aeo" firstAttribute="top" secondItem="rvx-TF-Cl7" secondAttribute="bottom" constant="-3" id="vZP-LA-h9d"/>
+                                            <constraint firstAttribute="trailing" secondItem="6K7-02-Ab6" secondAttribute="trailing" constant="8" id="wpd-BQ-mv8"/>
+                                            <constraint firstAttribute="trailing" secondItem="Aqh-F4-Aeo" secondAttribute="trailing" constant="8" id="y9J-ya-3BL"/>
+                                            <constraint firstItem="6K7-02-Ab6" firstAttribute="top" secondItem="afc-Wg-6Nz" secondAttribute="bottom" constant="36" id="zak-WX-Htf"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="86i-02-8bc" secondAttribute="bottom" id="2DE-ws-we4"/>
+                                    <constraint firstAttribute="trailing" secondItem="86i-02-8bc" secondAttribute="trailing" id="6yT-Rc-8P2"/>
+                                    <constraint firstItem="86i-02-8bc" firstAttribute="top" secondItem="dQz-d1-MQq" secondAttribute="top" id="Ebm-bF-ets"/>
+                                    <constraint firstItem="86i-02-8bc" firstAttribute="leading" secondItem="dQz-d1-MQq" secondAttribute="leading" id="wgM-oS-gxS"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="pLx-iD-JAJ"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dQz-d1-MQq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Iko-kZ-e0j"/>
+                            <constraint firstItem="86i-02-8bc" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="M2E-xB-uaQ"/>
+                            <constraint firstAttribute="trailing" secondItem="dQz-d1-MQq" secondAttribute="trailing" id="S4K-GS-yu9"/>
+                            <constraint firstItem="dQz-d1-MQq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Zyt-aS-KUy"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dQz-d1-MQq" secondAttribute="bottom" id="ki8-5y-8gT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9Yk-MP-6c4"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="900"/>
+                    <connections>
+                        <outlet property="contentView" destination="86i-02-8bc" id="QZv-Qu-L1q"/>
+                        <outlet property="scrollView" destination="dQz-d1-MQq" id="gw2-lU-dJf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1836" y="121.4392803598201"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="D6v-yy-RDL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dgm-G6-ttw" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="A5k-SS-rJB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="BLJ-RX-iQQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HlO-3E-jp1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="905" y="37"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sajek" width="1024" height="683"/>
+    </resources>
+</document>
